@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassBox", "ClassBox\ClassBox.csproj", "{EEE0861F-95D9-4E50-B394-1A83E02323D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingSpree", "ShoppingSpree\ShoppingSpree.csproj", "{A309DF3B-E4A1-4C28-BBDD-AD97C2325621}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEE0861F-95D9-4E50-B394-1A83E02323D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE0861F-95D9-4E50-B394-1A83E02323D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE0861F-95D9-4E50-B394-1A83E02323D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE0861F-95D9-4E50-B394-1A83E02323D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A309DF3B-E4A1-4C28-BBDD-AD97C2325621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A309DF3B-E4A1-4C28-BBDD-AD97C2325621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A309DF3B-E4A1-4C28-BBDD-AD97C2325621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A309DF3B-E4A1-4C28-BBDD-AD97C2325621}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
