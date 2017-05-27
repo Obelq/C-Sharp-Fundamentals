@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26FE3B84-D1FA-4310-8629-52AF7C402FFD}</ProjectGuid>
+    <ProjectGuid>{D8BFEC79-BAB1-441D-B95F-5028B309E405}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BorderControl</RootNamespace>
-    <AssemblyName>BorderControl</AssemblyName>
+    <RootNamespace>MathPotato</RootNamespace>
+    <AssemblyName>MathPotato</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Citizen.cs" />
-    <Compile Include="Models\IBirthdate.cs" />
-    <Compile Include="Models\IIdentifiable.cs" />
-    <Compile Include="Models\Pet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Models\Robot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
