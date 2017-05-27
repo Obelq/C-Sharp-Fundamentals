@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetsAndDictionaries", "SetsAndDictionaries\SetsAndDictionaries.csproj", "{D218D239-4BEC-4DD2-A438-613A5665E83A}"
 EndProject
@@ -18,6 +18,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixEmails", "FixEmails\FixEmails.csproj", "{4A1CFC65-46AE-43E3-B0E5-69BDFD02EC5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOfCards", "HandsOfCards\HandsOfCards.csproj", "{FE8F9460-B648-4A4C-AC00-BC91E062DC4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLogs", "UserLogs\UserLogs.csproj", "{215622AA-F903-40A3-913A-9A6CD2656AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopulationCounter", "PopulationCounter\PopulationCounter.csproj", "{CAC25781-7065-4590-9205-D9122DBAB872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsAggregator", "LogsAggregator\LogsAggregator.csproj", "{2B9FD1AA-AFB7-4C77-8021-F37153A8EB82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegendaryFarming", "LegendaryFarming\LegendaryFarming.csproj", "{508C6BF9-C562-4F6E-818B-F88E16B14CD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SrubskoUnleashed", "SrubskoUnleashed\SrubskoUnleashed.csproj", "{0C9B3393-D60C-4899-80EC-AD3E0D5471F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonArmy", "DragonArmy\DragonArmy.csproj", "{36AFF6EB-5860-415A-9A7D-B80C7D41A0C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +69,30 @@ Global
 		{FE8F9460-B648-4A4C-AC00-BC91E062DC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE8F9460-B648-4A4C-AC00-BC91E062DC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE8F9460-B648-4A4C-AC00-BC91E062DC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215622AA-F903-40A3-913A-9A6CD2656AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215622AA-F903-40A3-913A-9A6CD2656AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215622AA-F903-40A3-913A-9A6CD2656AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215622AA-F903-40A3-913A-9A6CD2656AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC25781-7065-4590-9205-D9122DBAB872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC25781-7065-4590-9205-D9122DBAB872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC25781-7065-4590-9205-D9122DBAB872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC25781-7065-4590-9205-D9122DBAB872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9FD1AA-AFB7-4C77-8021-F37153A8EB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9FD1AA-AFB7-4C77-8021-F37153A8EB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9FD1AA-AFB7-4C77-8021-F37153A8EB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9FD1AA-AFB7-4C77-8021-F37153A8EB82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508C6BF9-C562-4F6E-818B-F88E16B14CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508C6BF9-C562-4F6E-818B-F88E16B14CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508C6BF9-C562-4F6E-818B-F88E16B14CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508C6BF9-C562-4F6E-818B-F88E16B14CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9B3393-D60C-4899-80EC-AD3E0D5471F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9B3393-D60C-4899-80EC-AD3E0D5471F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9B3393-D60C-4899-80EC-AD3E0D5471F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9B3393-D60C-4899-80EC-AD3E0D5471F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36AFF6EB-5860-415A-9A7D-B80C7D41A0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36AFF6EB-5860-415A-9A7D-B80C7D41A0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36AFF6EB-5860-415A-9A7D-B80C7D41A0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36AFF6EB-5860-415A-9A7D-B80C7D41A0C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
