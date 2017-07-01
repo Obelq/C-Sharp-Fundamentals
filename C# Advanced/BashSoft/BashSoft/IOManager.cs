@@ -16,7 +16,7 @@ namespace BashSoft
             }
             catch (ArgumentException e)
             {
-                OutputWriter.DisplayExeption(ExceptionMessages.);
+                OutputWriter.DisplayException(ExceptionMessages.UnauthorizedAccessException);
             }
         }
         public static void TraverseDirectory(int depth)
@@ -50,7 +50,7 @@ namespace BashSoft
                 }
                 catch (UnauthorizedAccessException e)
                 {
-                    OutputWriter.DisplayExeption(ExceptionMessages.UnauthorizedAccessException);
+                    OutputWriter.DisplayException(ExceptionMessages.UnauthorizedAccessException);
                 }
             }
 
@@ -68,7 +68,7 @@ namespace BashSoft
                 }
                 catch (ArgumentOutOfRangeException e)
                 {
-                    OutputWriter.DisplayExeption(ExceptionMessages.UnableToGoHigherInPartitionHierarchy);
+                    OutputWriter.DisplayException(ExceptionMessages.UnableToGoHigherInPartitionHierarchy);
                 }
             }
             else

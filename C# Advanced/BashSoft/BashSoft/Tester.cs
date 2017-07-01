@@ -23,7 +23,7 @@ namespace BashSoft
             }
             catch (FileNotFoundException e)
             {
-                OutputWriter.DisplayExeption(ExceptionMessages.InvalidPath);
+                OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
             }
 
         }
@@ -44,7 +44,7 @@ namespace BashSoft
                 }
                 catch (DirectoryNotFoundException e)
                 {
-                    OutputWriter.DisplayExeption(ExceptionMessages.InvalidPath);
+                    OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
                 }
                 return;
             }
@@ -64,7 +64,7 @@ namespace BashSoft
             {
                 hasMismatch = true;
                 minOutputLines = Math.Min(actualOutputLines.Length, expectedOutputLines.Length);
-                OutputWriter.DisplayExeption(ExceptionMessages.ComparisonOfFilesWithDifferentSizes);
+                OutputWriter.DisplayException(ExceptionMessages.ComparisonOfFilesWithDifferentSizes);
             }
             string[] mismatches = new string[minOutputLines];
             Console.WriteLine("Comparing files...");
