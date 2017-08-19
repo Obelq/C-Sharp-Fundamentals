@@ -22,6 +22,7 @@ public class HeroInventoryTests
 
         this.sut.AddCommonItem(item);
         Type clazz = typeof(HeroInventory);
+        var fieldTest = clazz.GetFields();
         var field = clazz.GetFields(BindingFlags.Instance | BindingFlags.NonPublic)
             .FirstOrDefault(f => f.GetCustomAttributes(typeof(ItemAttribute)) != null);
         var collection = (Dictionary<string, IItem>)field.GetValue(this.sut);
